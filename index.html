@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Groceries</title>
-  </head>
-  <body>
-    <div id="container">
-        <h1>List of Groceries</h1>
-        <form id="form1">
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="like1">Like1</label>
-              <input type="text" class="form-control" id="like1" placeholder="like1">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="like2">Like2</label>
-              <input type="text" class="form-control" id="like2" placeholder="like2">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="like3">Like3</label>
-              <input type="text" class="form-control" id="like3" placeholder="like3">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="like4">Like4</label>
-              <input type="text" class="form-control" id="like4" placeholder="like4">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="like5">Like5</label>
-              <input type="text" class="form-control" id="like5" placeholder="like5">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="like6">Like6</label>
-              <input type="text" class="form-control" id="like6" placeholder="like6">
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary">submit</button>
-        </form>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Groceries</title>
+</head>
+<body>
+  <div id="container">
+    <h1>List of Groceries</h1>
+    <form id="form1">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="like1">Item 1</label>
+          <input type="text" class="form-control" id="like1" placeholder="...">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="like2">Item 2</label>
+          <input type="text" class="form-control" id="like2" placeholder="...">
+        </div>
       </div>
-  </body>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="like3">Item 3</label>
+          <input type="text" class="form-control" id="like3" placeholder="...">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="like4">Item 4</label>
+          <input type="text" class="form-control" id="like4" placeholder="...">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="like5">Item 5</label>
+          <input type="text" class="form-control" id="like5" placeholder="...">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="like6">Item 6</label>
+          <input type="text" class="form-control" id="like6" placeholder="...">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">submit</button>
+    </form>
+  </div>
+  <div id="list">
+    <ul id="grocery_output"> </ul>
+  </div>
+</body>
 </html>
